@@ -14,19 +14,7 @@ type QuoteData = {
   address: string;
 };
 
-const serviceOptions = [
-  "Hardscape",
-  "Travertine Pavers",
-  "Turf Installation",
-  "Materials Delivery",
-  "Custom Landscape Lighting",
-  "Yard Cleanups",
-  "Sprinkler Repairs",
-  "Weed Spraying",
-  "Outdoor Barbecues",
-  "Fire Pits",
-  "Cement Block Walls",
-];
+const serviceOptions = ["Hardscape", "Turf Installation", "Custom Pavers"];
 
 const timelineOptions = ["ASAP", "Next Few Weeks", "Planning Phase", "Just browsing / getting a quote"];
 

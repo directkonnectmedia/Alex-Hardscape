@@ -10,18 +10,9 @@ const services = [
     title: "Hardscape",
     description:
       "Expertly designed and installed hardscaping to transform your outdoor space into a functional and beautiful living area.",
-    features: ["Patios", "Walkways", "Retaining Walls"],
+    features: ["Patios", "Walkways", "Custom artificial turf"],
     image:
       "https://images.unsplash.com/photo-1761637823622-eaaaee0660db?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "travertine-pavers",
-    title: "Travertine Pavers",
-    description:
-      "Premium travertine paver installation providing elegant, slip-resistant, and heat-resistant surfaces perfect for Arizona weather.",
-    features: ["Pool Decks", "Driveways", "Courtyards"],
-    image:
-      "https://images.unsplash.com/photo-1717160111930-b1a7ba2baf52?q=80&w=2000&auto=format&fit=crop",
   },
   {
     id: "turf-installation",
@@ -33,76 +24,13 @@ const services = [
       "https://images.unsplash.com/photo-1707228700996-5862513fe7de?q=80&w=2000&auto=format&fit=crop",
   },
   {
-    id: "materials-delivery",
-    title: "Materials Delivery",
+    id: "custom-pavers",
+    title: "Custom Pavers",
     description:
-      "Reliable delivery of essential landscaping and hardscaping materials right to your project site.",
-    features: ["Quarter Minus", "Gravel & Blocks", "Drywall"],
-    image:
-      "https://images.unsplash.com/photo-1761898552506-5b14f17edcdf?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "landscape-lighting",
-    title: "Custom Landscape Lighting",
-    description:
-      "Highlight the beauty of your home and improve security with our custom-designed LED landscape lighting systems.",
-    features: ["Path Lighting", "Up-lighting", "Spotlights"],
-    image:
-      "https://images.unsplash.com/photo-1741646557129-eeb404155d65?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "yard-cleanups",
-    title: "Yard Cleanups",
-    description:
-      "Comprehensive yard cleanups to clear out debris, overgrowth, and leave your lawn perfectly manicured for the season.",
-    features: ["Debris Removal", "Mowing & Edging", "Seasonal Refresh"],
-    image:
-      "https://images.unsplash.com/photo-1764969370921-7c8df49171cd?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "sprinkler-repairs",
-    title: "Sprinkler Repairs",
-    description:
-      "Fast and reliable sprinkler system diagnostics and repair to keep your natural plants healthy and hydrated.",
-    features: ["Leak Repair", "Head Replacement", "Timer Setup"],
-    image:
-      "https://images.unsplash.com/photo-1770664945615-52203ab54c88?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "weed-spraying",
-    title: "Weed Spraying (Herbicide)",
-    description:
-      "Effective herbicide treatments to eliminate and prevent invasive weeds from taking over your yard.",
-    features: ["Pre-emergent", "Spot Treatment", "Safe Application"],
+      "Premium paver layouts tailored to your taste—we help you choose patterns, colors, and finishes so your hardscape is built exactly how you envision it.",
+    features: ["Made to your specifications", "Durable finishes", "Expert installation"],
     image:
       "https://images.unsplash.com/photo-1775806383830-39512c641bd6?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "outdoor-barbecues",
-    title: "Custom Outdoor Barbecues",
-    description:
-      "Built-in outdoor BBQ islands customized to your cooking style and entertaining needs.",
-    features: ["Stone Veneer", "Custom Counters", "Built-in Grills"],
-    image:
-      "https://images.unsplash.com/photo-1762117361035-5cd4f9c24795?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "fire-pits",
-    title: "Fire Pits",
-    description:
-      "Warm up your chilly evenings with beautifully crafted custom fire pits, available in gas or wood-burning setups.",
-    features: ["Gas or Wood", "Seating Walls", "Safe & Stylish"],
-    image:
-      "https://images.unsplash.com/photo-1654546493292-7df731737090?q=80&w=2000&auto=format&fit=crop",
-  },
-  {
-    id: "cement-block-walls",
-    title: "Cement Block Walls",
-    description:
-      "Durable and strong cement block walls for privacy, security, and property division.",
-    features: ["Privacy Walls", "Retaining Walls", "Stucco Finish"],
-    image:
-      "https://images.unsplash.com/photo-1746160934129-36b73b974228?q=80&w=2000&auto=format&fit=crop",
   },
 ];
 
