@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Francisco Hardscape and Turf LLC",
-  description: "Premium hardscaping, turf installation, and landscaping services. Contact Francisco today.",
+  title: "Alex Hardscape and Turf LLC",
+  description: "Premium hardscaping, turf installation, and landscaping services. Contact Alex today.",
 };
 
 export default function RootLayout({

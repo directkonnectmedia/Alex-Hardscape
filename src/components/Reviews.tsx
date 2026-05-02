@@ -8,7 +8,7 @@ const reviews = [
     id: 1,
     name: "Sarah Johnson",
     title: "Homeowner",
-    text: "Francisco and his team did an amazing job on our yard remodel. The attention to detail on the travertine pavers is incredible. Highly recommend!",
+    text: "Alex and his team did an amazing job on our yard remodel. The attention to detail on the travertine pavers is incredible. Highly recommend!",
     stars: 5,
   },
   {

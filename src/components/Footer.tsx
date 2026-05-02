@@ -14,7 +14,7 @@ export default function Footer() {
               <LeafLogo size={40} className="mr-1 shrink-0" />
               <div className="flex flex-col">
                 <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white to-brand-green bg-clip-text text-transparent group-hover:from-white group-hover:to-brand-green-hover transition-all leading-tight">
-                  Francisco Hardscape
+                  Alex Hardscape
                 </span>
                 <span className="text-xs text-brand-orange font-semibold tracking-widest uppercase">
                   & Turf LLC
@@ -71,15 +71,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-gray-400 text-sm">
                 <User className="w-5 h-5 text-brand-green shrink-0" />
-                <span className="font-medium">Owner: Francisco</span>
+                <span className="font-medium">Owner: Alex</span>
               </li>
               <li className="flex items-start space-x-3 text-gray-400 text-sm">
                 <Phone className="w-5 h-5 text-brand-green shrink-0" />
                 <a
-                  href="tel:602-920-2015"
+                  href="tel:602-772-8962"
                   className="hover:text-brand-green transition-colors"
                 >
-                  (602) 920-2015
+                  (602) 772-8962
                 </a>
               </li>
               <li className="flex items-start space-x-3 text-gray-400 text-sm">
@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className="border-t border-brand-gray mt-12 pt-8 flex flex-col md:flex-row items-center justify-between text-gray-500 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Francisco Hardscape and Turf LLC. All rights reserved.
+            &copy; {new Date().getFullYear()} Alex Hardscape and Turf LLC. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="#" className="hover:text-brand-green transition-colors">

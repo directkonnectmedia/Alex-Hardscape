@@ -16,7 +16,7 @@ export default function Navbar() {
             <LeafLogo size={36} className="mr-1 shrink-0" />
             <div className="flex flex-col">
               <span className="text-base sm:text-lg font-bold tracking-tight bg-gradient-to-r from-white to-brand-green bg-clip-text text-transparent group-hover:from-white group-hover:to-brand-green-hover transition-all leading-tight">
-                Francisco Hardscape
+                Alex Hardscape
               </span>
               <span className="text-[10px] sm:text-xs text-brand-orange font-semibold tracking-widest uppercase">
                 & Turf LLC
@@ -47,11 +47,11 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center space-x-6">
             <a
-              href="tel:602-920-2015"
+              href="tel:602-772-8962"
               className="flex items-center text-gray-300 hover:text-brand-green font-semibold transition-colors"
             >
               <Phone className="w-5 h-5 mr-2" />
-              <span>(602) 920-2015</span>
+              <span>(602) 772-8962</span>
             </a>
             <Link
               href="#quote"
@@ -96,11 +96,11 @@ export default function Navbar() {
             Reviews
           </Link>
           <a
-            href="tel:602-920-2015"
+            href="tel:602-772-8962"
             className="flex items-center text-gray-300 hover:text-brand-green font-medium pt-4 border-t border-brand-gray"
           >
             <Phone className="w-5 h-5 mr-2" />
-            <span>(602) 920-2015</span>
+            <span>(602) 772-8962</span>
           </a>
           <Link
             href="#quote"

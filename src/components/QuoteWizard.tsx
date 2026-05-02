@@ -272,7 +272,7 @@ export default function QuoteWizard() {
                   </div>
                   <h4 className="text-3xl font-bold text-white mb-4">Request Submitted!</h4>
                   <p className="text-gray-400 max-w-md">
-                    Thank you for considering Francisco Hardscape and Turf LLC. We have received your project details and will be in touch shortly to provide your free quote.
+                    Thank you for considering Alex Hardscape and Turf LLC. We have received your project details and will be in touch shortly to provide your free quote.
                   </p>
                   <button 
                     onClick={() => {

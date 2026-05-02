@@ -117,7 +117,7 @@ export default function Hero() {
             <LeafLogo size={128} className="hidden sm:block md:hidden" />
             <LeafLogo size={160} className="hidden md:block" />
             <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight bg-gradient-to-r from-white to-brand-green bg-clip-text text-transparent leading-tight pb-2">
-              Francisco Hardscape
+              Alex Hardscape
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-4xl text-brand-orange font-bold tracking-widest uppercase">
               & Turf LLC
