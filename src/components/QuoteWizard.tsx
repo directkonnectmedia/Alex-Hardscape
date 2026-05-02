@@ -14,7 +14,7 @@ type QuoteData = {
   address: string;
 };
 
-const serviceOptions = ["Hardscape", "Turf Installation", "Custom Pavers"];
+const serviceOptions = ["Turf Installation", "Custom Pavers"];
 
 const timelineOptions = ["ASAP", "Next Few Weeks", "Planning Phase", "Just browsing / getting a quote"];
 
@@ -167,7 +167,7 @@ export default function QuoteWizard() {
                   <textarea
                     value={data.details}
                     onChange={(e) => setData({ ...data, details: e.target.value })}
-                    placeholder="E.g., I want to replace my grass with turf and add a new travertine paver patio..."
+                    placeholder="E.g., I'd like turf for my backyard dog run plus a new paver walkway..."
                     className="w-full h-48 bg-brand-black border-2 border-brand-light-gray rounded-xl p-4 text-white focus:outline-none focus:border-brand-green transition-colors resize-none mb-24"
                   />
                 </div>

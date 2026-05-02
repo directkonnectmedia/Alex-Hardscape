@@ -6,23 +6,23 @@ import { Star } from "lucide-react";
 const reviews = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Jordan Martinez",
     title: "Homeowner",
-    text: "Alex and his team did an amazing job on our yard remodel. The attention to detail on the travertine pavers is incredible. Highly recommend!",
+    text: "Alex Hardscape transformed our backyard with new pavers and seating—we finally have a patio we use every weekend. Crew was on time, respectful of our neighbors, and the finish looks flawless.",
     stars: 5,
   },
   {
     id: 2,
-    name: "Michael Reed",
-    title: "Local Resident",
-    text: "The new landscape lighting completely transformed our home's exterior. They were quick, professional, and cleaned up everything before leaving.",
+    name: "Priya Shah",
+    title: "Homeowner",
+    text: "We needed artificial turf around the pool that could handle heat and heavy foot traffic. It drains well, feels soft underfoot, and still looks brand-new months later. Worth every penny.",
     stars: 5,
   },
   {
     id: 3,
-    name: "Elena Rodriguez",
-    title: "Homeowner",
-    text: "We wanted artificial turf for our backyard pool area, and they delivered perfectly. The turf looks seamless and incredibly realistic.",
+    name: "Chris Nguyen",
+    title: "Local Resident",
+    text: "From the first walk-through to cleanup, communication was clear and honest. Our custom paver pattern turned out exactly how we sketched it—professional crew and fair pricing.",
     stars: 5,
   },
 ];
