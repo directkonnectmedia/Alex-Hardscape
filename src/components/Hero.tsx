@@ -9,19 +9,15 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-[100svh] sm:min-h-[600px] sm:h-[90vh] flex items-center justify-center overflow-hidden bg-brand-black">
       {/*
-        Animated paver walkway with landscape lighting background.
-        Brightness/saturation slowly ebb and flow on the photo itself so the
-        actual solar lights in the image (the brightest pixels) breathe like
-        a candle - smoothly dimming and elevating instead of flickering.
-        The dark overlay sits in a separate layer so it never gets brightened
-        along with the lights.
+        Backyard putting green / turf showcase photo.
+        Gentle zoom and brightness/saturation breathing keep the hero lively;
+        the dark overlay stays separate so foreground text stays readable.
       */}
       <motion.div
         className="absolute inset-0 bg-cover z-0"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1741646557129-eeb404155d65?q=80&w=2400&auto=format&fit=crop')",
-          backgroundPosition: "center bottom",
+          backgroundImage: "url('/hero-turf.jpg')",
+          backgroundPosition: "center center",
         }}
         animate={{
           scale: [1, 1.06, 1],
@@ -39,70 +35,6 @@ export default function Hero() {
 
       {/* Static dark overlay so the breathing brightness doesn't wash out the section */}
       <div className="absolute inset-0 z-0 bg-brand-black/55 pointer-events-none" />
-
-      {/*
-        Independent warm-glow halos placed exactly on top of each solar light
-        in the photo. Each one breathes like a candle - dimming and elevating
-        smoothly with its own slow rhythm - using mix-blend-mode screen so it
-        only ADDS brightness where the photo is already lit. Coordinates were
-        measured from the source image:
-          Light 1 (largest, foreground):  ~37% x, ~78% y
-          Light 2 (mid):                  ~50% x, ~42% y
-          Light 3 (small back):           ~67% x, ~22% y
-          Light 4 (tiny far back):        ~76% x, ~13% y
-      */}
-      <motion.div
-        className="absolute inset-0 z-0 mix-blend-screen pointer-events-none hidden sm:block"
-        style={{
-          background:
-            "radial-gradient(circle 130px at 37% 78%, rgba(255,236,179,0.95), rgba(255,200,120,0.5) 35%, transparent 70%)",
-        }}
-        animate={{ opacity: [0.5, 1, 0.5] }}
-        transition={{ duration: 5.2, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute inset-0 z-0 mix-blend-screen pointer-events-none hidden sm:block"
-        style={{
-          background:
-            "radial-gradient(circle 90px at 50% 42%, rgba(255,236,179,0.9), rgba(255,200,120,0.4) 35%, transparent 70%)",
-        }}
-        animate={{ opacity: [0.55, 1, 0.55] }}
-        transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 1.1 }}
-      />
-      <motion.div
-        className="absolute inset-0 z-0 mix-blend-screen pointer-events-none hidden sm:block"
-        style={{
-          background:
-            "radial-gradient(circle 60px at 67% 22%, rgba(255,236,179,0.85), rgba(255,200,120,0.35) 40%, transparent 70%)",
-        }}
-        animate={{ opacity: [0.45, 0.95, 0.45] }}
-        transition={{ duration: 4.8, repeat: Infinity, ease: "easeInOut", delay: 0.6 }}
-      />
-      <motion.div
-        className="absolute inset-0 z-0 mix-blend-screen pointer-events-none hidden sm:block"
-        style={{
-          background:
-            "radial-gradient(circle 40px at 76% 13%, rgba(255,236,179,0.8), transparent 70%)",
-        }}
-        animate={{ opacity: [0.4, 0.9, 0.4] }}
-        transition={{ duration: 4.0, repeat: Infinity, ease: "easeInOut", delay: 1.8 }}
-      />
-
-      {/*
-        Mobile fallback: on small screens the photo gets cropped, so the
-        precisely-positioned light halos no longer line up. Instead, blanket
-        the bottom of the screen with a single warm candle-glow that always
-        covers wherever the photo's lights end up rendering.
-      */}
-      <motion.div
-        className="absolute inset-0 z-0 mix-blend-screen pointer-events-none sm:hidden"
-        style={{
-          background:
-            "radial-gradient(ellipse 90% 55% at 50% 80%, rgba(255,220,150,0.55), transparent 70%)",
-        }}
-        animate={{ opacity: [0.5, 0.95, 0.5] }}
-        transition={{ duration: 5.2, repeat: Infinity, ease: "easeInOut" }}
-      />
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto pt-20 sm:pt-16">
         <motion.div
